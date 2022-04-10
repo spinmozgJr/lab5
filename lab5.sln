@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab5", "lab5\lab5.csproj", "{A4791091-3818-4E15-B4BD-9B360AB20881}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab5.2", "lab5.2\lab5.2.csproj", "{7747C12A-A681-4333-9953-004864D2E8EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReader", "DataReader\DataReader.csproj", "{D50A93CD-2ED8-47FB-B01E-DCFA6C617EC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4791091-3818-4E15-B4BD-9B360AB20881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4791091-3818-4E15-B4BD-9B360AB20881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4791091-3818-4E15-B4BD-9B360AB20881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4791091-3818-4E15-B4BD-9B360AB20881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7747C12A-A681-4333-9953-004864D2E8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7747C12A-A681-4333-9953-004864D2E8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7747C12A-A681-4333-9953-004864D2E8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7747C12A-A681-4333-9953-004864D2E8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50A93CD-2ED8-47FB-B01E-DCFA6C617EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50A93CD-2ED8-47FB-B01E-DCFA6C617EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50A93CD-2ED8-47FB-B01E-DCFA6C617EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50A93CD-2ED8-47FB-B01E-DCFA6C617EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23D27E1F-4CDF-4E47-BFEE-501FBC33C80A}
+	EndGlobalSection
+EndGlobal
