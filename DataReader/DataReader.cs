@@ -29,7 +29,6 @@ namespace DataReader
 
         private double[][] ReadDataFromFile(string pathOfDataFile)
         {
-            //Dictionary<string, double> data = new Dictionary<string, double>();
             double[][] data = new double[3][];
             using (StreamReader reader = new StreamReader(pathOfDataFile))
             {
@@ -44,7 +43,6 @@ namespace DataReader
                     Console.WriteLine("Ошибка при считывании количества точек для y для аргументов функции");
 
 
-                //int cntOfX = int.Parse(lines[0]);
                 double[] valuesX = new double[x];
                 double[] valuesY = new double[y];
                 double[] values = new double[x * y];
@@ -61,7 +59,6 @@ namespace DataReader
                     lines[i] = lines[i].TrimStart(new char[] { '\r', '\n'});
                     if (lines[i] == "")
                     {
-                        //i++;
                         continue;
                     }
                         
@@ -71,16 +68,13 @@ namespace DataReader
                         if (double.TryParse(lines[i], out valuesY[cntY]))
                         {
                             cntY++;
-                            //i++;
                         }
                         else
                         {
                             valuesY[cntY] = double.NaN;
                             cntY++;
-                            //i++;
                         }
 
-                        //Console.Write(lines[i] + " ");
                         continue;
                     }
                     
@@ -90,13 +84,11 @@ namespace DataReader
                         if (double.TryParse(lines[i], out valuesX[cntX]))
                         {
                             cntX++;
-                            //i++;
                         }
                         else
                         {
                             valuesX[cntX] = double.NaN;
                             cntX++;
-                            //i++;
                         }
                         continue;
                     }
@@ -105,17 +97,12 @@ namespace DataReader
                     if (double.TryParse(lines[i], out values[cntValues])) 
                     {
                         cntValues++;
-                        //i++;
                     }
                     else
                     {
                         values[cntValues] = double.NaN;
                         cntValues++;
-                        //i++;
-                    }
-                    
-                    //lines[i] = lines[i].TrimEnd(new char[] { ' ', '\t' });
-                    //Console.Write(lines[i] + " ");
+                    }   
                 }
                 data[0] = valuesX;
                 data[1] = valuesY;

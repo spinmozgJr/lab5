@@ -37,7 +37,7 @@ namespace lab5._2
         {
             //начальная точка, конечная точка, количество шагов
             double[][] x = {
-                new double[] { 12, 14, 4 },
+                new double[] { 1e300, 1e300 * 1e300, 4 },
                 new double[] { 2, 6, 10 },
                 new double[] { -10, 10, 10 },
                 new double[] { -1, 10, 20 },
@@ -147,7 +147,6 @@ namespace lab5._2
 
             DataReader.DataReader dataReader = new DataReader.DataReader();
             var files = dataReader.GetAllData("myProgram.log");
-            Console.WriteLine(files);
         }
     }
 }
